@@ -11,7 +11,7 @@
     npm start
     ```
 
-3. The API will be running on `http://localhost:4000`.
+3. The Server will be running on `http://localhost:4000`.
 
 ## Endpoints
 
