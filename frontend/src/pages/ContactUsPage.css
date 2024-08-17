@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.contact-us-container h1 {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-info {
+  width: 45%;
+  padding-right: 20px;
+}
+
+.contact-info h3 strong {
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 2;
+  text-decoration: underline;
+}
+
+.contact-info p {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.contact-info strong {
+  font-weight: 700;
+}
+
+.contact-form {
+  width: 50%;
+  padding: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.contact-form p {
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #888;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+.contact-form a {
+  color: #4caf50;
+  text-decoration: underline;
+}
+
+.contact-form a:hover {
+  text-decoration: underline dotted;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .contact-us-container {
+    flex-direction: column;
+    padding: 15px;
+    margin: 5px 0;
+  }
+.contact-details{
+  flex-direction: column;
+}
+
+  .contact-info,
+  .contact-form {
+    padding: 0;
+    width: 100%;
+  }
+  .contact-form textarea {
+    height: 100px;
+  }
+}
