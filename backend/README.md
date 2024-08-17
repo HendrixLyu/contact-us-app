@@ -16,7 +16,7 @@
 ## Endpoints
 
 - **GET /api/get-info**: Returns the contact information.
-- **POST /api/save-info**: Saves the form data to a file (src/db/ContactData.json).
+- **POST /api/save-info**: Saves the form data to a file (src/db/ContactData.json) and MongoDB (contactDB).
 
 ## check local MongoDB
 If using MongoDB installed locally:
