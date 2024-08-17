@@ -17,3 +17,31 @@
 
 - **GET /api/get-info**: Returns the contact information.
 - **POST /api/save-info**: Saves the form data to a file (src/db/ContactData.json).
+
+## check local MongoDB
+If using MongoDB installed locally:
+## Requirements
+
+- MongoDB
+
+checking by:
+```
+mongo --version 
+```
+
+1. start MongoDB
+    ```
+    mongo
+    ```
+2. connect DB:
+    ```
+    use contactDB
+    ```
+3. show collections:
+    ```
+    show collections
+    ```
+4. query data:
+    ```
+    db.contacts.find().pretty()
+    ```
