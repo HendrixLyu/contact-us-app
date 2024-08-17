@@ -9,7 +9,7 @@ This project is a full-stack application with a React frontend and an Express.js
 
 ## Installation and Running
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/HendrixLyu/contact-us-app.git
